@@ -15,7 +15,7 @@ export const UPDATE_DETAIL = "UPDATE_DETAIL";
 export function getVideoGames() {
   return async function(dispatch){
     try {
-      const jsonVg = await axios('http://localhost:3001/videogames');
+      const jsonVg = await axios('/videogames');
       return dispatch({
         type: GET_VIDEOGAMES,
         payload: jsonVg.data,
@@ -29,7 +29,7 @@ export function getVideoGames() {
 export function getDteailVg(id) {
   return async function(dispatch){
     try {
-      const jsonVg = await axios(`http://localhost:3001/videogame/${id}`);
+      const jsonVg = await axios(`/videogame/${id}`);
       return dispatch({
         type: GET_VIDEOGAME_DETAIL,
         payload: jsonVg.data,
@@ -43,7 +43,7 @@ export function getDteailVg(id) {
 export function getGenres() {
   return async function(dispatch){
     try {
-      const jsonVg = await axios('http://localhost:3001/genres');
+      const jsonVg = await axios('/genres');
       return dispatch({
         type: GET_GENRES,
         payload: jsonVg.data,
@@ -57,7 +57,7 @@ export function getGenres() {
 export function postVideogame(payload) {
   return async function() {
     try {
-      const postVg = await axios.post("http://localhost:3001/videogame", payload);
+      const postVg = await axios.post("/videogame", payload);
       console.log(postVg);
       alert(`${postVg.data.message}`);
       return {
@@ -109,7 +109,7 @@ export function orderByRating(payload) {
 export function getNameVg(name) {
   return async function (dispatch) {
     try {
-      const jsonVg = await axios(`http://localhost:3001/videogames?name=${name}`);
+      const jsonVg = await axios(`/videogames?name=${name}`);
       return dispatch({
         type: GET_NAME_VIDEOGAMES,
         payload: jsonVg.data,

@@ -7,6 +7,9 @@ import Header from './components/Header/Header';
 import Detail from './components/Detail/Detail';
 import Footer from './components/Footer/Footer';
 import './App.css';
+import axios from 'axios';
+
+axios.defaults.baseURL = 'http://localhost:3001/';
 
 
 function App() {

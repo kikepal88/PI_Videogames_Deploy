@@ -1,0 +1,12 @@
+@import url(./App.css);
+@import url(./components/Header/header.css);
+@import url(./components/Landing/landing.css);
+@import url(./components/Footer/footer.css);
+@import url(./components/Home/home.css);
+@import url(./components/FindFilterOrder/findfilterorder.css);
+@import url(./components/SearchBar/searchbar.css);
+@import url(./components/Paginated/paginated.css);
+@import url(./components/CardsContainer/cardscontainer.css);
+@import url(./components/Card/cards.css);
+@import url(./components/Create/create.css);
+@import url(./components/Detail/detail.css);

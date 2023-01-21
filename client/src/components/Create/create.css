@@ -1,0 +1,116 @@
+.main_create {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+.main_create .back {
+  position: absolute;
+  top: 2%;
+  left: 2%;
+}
+
+.create {
+  width: 1000px;
+  height: auto;
+  margin-block: 20px;
+  padding: 30px;
+  text-align: start;
+  border: 2px solid var(--Color-variante);
+  border-radius: 20px;
+  background-color: var(--Color-primario2);
+}
+.create h3 {
+  width: 100%;
+  margin-block-end: 10px;
+  color: var(--Color-variante);
+}
+.create form {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+}
+.create div {
+  width: 48%;
+  height: auto;
+  margin-block-end: 20px;
+}
+.create .description {
+  width: 100%;
+}
+.create label {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+.create input {
+  width: 100%;
+  height: 35px;
+  margin-block-start: 5px;
+  padding: 5px 10px;
+  font-size: 1.4rem;
+  font-family: var(--Fuente1);
+  border-radius: 5px;
+}
+.create textarea {
+  max-width: 936px;
+  width: 100%;
+  height: 50px;
+  margin-block-start: 5px;
+  padding: 5px 10px;
+  font-size: 1.4rem;
+  font-family: var(--Fuente1);
+  line-height: var(--p-hl);
+  border-radius: 5px;
+}
+.create select {
+  width: 150px;
+  height: 35px;
+  margin-block: 10px;
+  padding: 5px 10px;
+  font-size: 1.4rem;
+  font-family: var(--Fuente1);
+  border-radius: 5px;
+}
+
+.create_platforms .added_platforms, .create_genres .added_genres {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.create_platforms article, .create_genres  article {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin-inline-end: 10px;
+}
+.create_platforms p, .create_genres  p {
+  width: max-content;
+  height: auto;
+  margin: 2px;
+  padding: 2px 5px;
+  border: 1px solid var(--Color-variante);
+  border-radius: 5px;
+}
+.create_platforms button, .create_genres  button {
+  min-width: 20px;
+  width: 25px;
+  height: 25px;
+  margin: 0 2px;
+  padding: 1px;
+  border-radius: 50%;
+}
+
+.create .submit_button {
+  margin: 0 auto;
+}
+
+

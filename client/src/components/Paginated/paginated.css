@@ -1,0 +1,21 @@
+.paginatedandcreate nav {
+  width: 40%;
+  margin-inline-start: 200px;
+}
+.paginatedandcreate ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.paginatedandcreate li {
+  margin-inline-start: 15px;
+  list-style: none;
+}
+.paginatedandcreate li .is_active {
+  background-color: var(--Color-complemento);
+  box-shadow: 1px 2px 5px 1px var(--Color-variante);
+}
+.paginatedandcreate button {
+  min-width: 40px;
+}

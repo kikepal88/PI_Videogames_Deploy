@@ -9,7 +9,7 @@ import Footer from './components/Footer/Footer';
 import './App.css';
 import axios from 'axios';
 
-axios.defaults.baseURL = 'http://localhost:3001/';
+axios.defaults.baseURL = 'https://pivideogamesdeploy-production.up.railway.app/';
 
 
 function App() {

@@ -21,7 +21,7 @@ function Header() {
             <div className="github_logo">
               <img src="https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/github_naranja.svg?alt=media&token=472e54c6-d452-4455-b2ca-91d1550ee2ee" alt="Gihub's Logo" className="img"/>
             </div>
-            <p>Repository</p>
+            <p className="header_repo">Repository</p>
           </a>
         </div>
       </section>

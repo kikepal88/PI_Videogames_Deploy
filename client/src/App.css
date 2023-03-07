@@ -15,17 +15,29 @@
   --Fuente1: "Lato", sans-serif;
   --Fuente2: "Oswald", sans-serif;
   --p-size: 1.7rem;
+  --p-size-p: 1.6rem;
   --h5-size: 1.95rem;
+  --h5-size-p: 1.8rem;
   --h4-size: 2.21rem;
+  --h4-size-p: 2.1rem;
   --h3-size: 2.87rem;
+  --h3-size-p: 2.4rem;
   --h2-size: 3.73rem;
+  --h2-size-p: 3.3rem;
   --h1-size: 4.86rem;
+  --h1-size-p: 4rem;
   --p-hl: calc(var(--p-size)*1.25);
   --h5-hl: calc(var(--h5-size)*1.25);
   --h4-hl: calc(var(--h4-size)*1.25);
   --h3-hl: calc(var(--h3-size)*1.25);
   --h2-hl: calc(var(--h2-size)*1.25);
   --h1-hl: calc(var(--h1-size)*1.25);
+  --p-hl-p: calc(var(--p-size-p)*1.25);
+  --h5-hl-p: calc(var(--h5-size-p)*1.25);
+  --h4-hl-p: calc(var(--h4-size-p)*1.25);
+  --h3-hl-p: calc(var(--h3-size-p)*1.25);
+  --h2-hl-p: calc(var(--h2-size-p)*1.25);
+  --h1-hl-p: calc(var(--h1-size-p)*1.25);
 }
 
 html {
@@ -59,34 +71,34 @@ main::-webkit-scrollbar-thumb {
 
 
 h1 {
-  font-size: var(--h1-size);
+  font-size: var(--h1-size-p);
   font-family: var(--Fuente2);
-  line-height: var(--h1-hl);
+  line-height: var(--h1-hl-p);
 }
 h2 {
-  font-size: var(--h2-size);
+  font-size: var(--h2-size-p);
   font-family: var(--Fuente2);
-  line-height: var(--h2-hl);
+  line-height: var(--h2-hl-p);
 }
 h3 {
-  font-size: var(--h3-size);
+  font-size: var(--h3-size-p);
   font-family: var(--Fuente2);
-  line-height: var(--h3-hl);
+  line-height: var(--h3-hl-p);
 }
 h4 {
-  font-size: var(--h4-size);
+  font-size: var(--h4-size-p);
   font-family: var(--Fuente2);
-  line-height: var(--h4-hl);
+  line-height: var(--h4-hl-p);
 }
 h5 {
-  font-size: var(--h5-size);
+  font-size: var(--h5-size-p);
   font-family: var(--Fuente2);
-  line-height: var(--h5-hl);
+  line-height: var(--h5-hl-p);
 }
 p {
-  font-size: var(--p-size);
+  font-size: var(--p-size-p);
   font-family: var(--Fuente1);
-  line-height: var(--p-hl);
+  line-height: var(--p-hl-p);
 }
 
 section {
@@ -129,4 +141,103 @@ button {
 button:hover {
   background-color: var(--Color-complemento);
   box-shadow: 1px 2px 5px 1px var(--Color-variante);
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 1024px) {
+  h1 {
+    font-size: var(--h1-size);
+    line-height: var(--h1-hl);
+  }
+  h2 {
+    font-size: var(--h2-size);
+    line-height: var(--h2-hl);
+  }
+  h3 {
+    font-size: var(--h3-size);
+    line-height: var(--h3-hl);
+  }
+  h4 {
+    font-size: var(--h4-size);
+    line-height: var(--h4-hl);
+  }
+  h5 {
+    font-size: var(--h5-size);
+    line-height: var(--h5-hl);
+  }
+  p {
+    font-size: var(--p-size);
+    line-height: var(--p-hl);
+  }
+}
+
+@media screen and (min-width: 1240px) {
+
+}
+
+@media screen and (min-width: 1440px) {
+  main {
+    margin-block-start: 90px;
+    width: 100%;
+    height: 630px;
+    background-image: url(https://image.winudf.com/v2/image1/Y29tLnNnbW9iaWxlLnRoZXdpdGNoZXIuaGQud2FsbHBhcGVyc19zY3JlZW5fMF8xNTc4MjQzNjYzXzA5Nw/screen-0.jpg?fakeurl=1&type=.webp), url(https://www.xtrafondos.com/wallpapers/vertical/kratos-god-of-war-11198.jpg), url(https://i.pinimg.com/originals/ad/c2/2b/adc22b32156d2ddf9ad2758c4a628eb3.jpg), url(https://www.xtrafondos.com/wallpapers/vertical/the-last-of-us-remasterizado-511.jpg), url(https://i.pinimg.com/originals/7e/a2/39/7ea239090ac50203b44a3b86bbe5573c.jpg);
+    background-position: -3%, 26%, 50.5%, 75%, 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    overflow-y: scroll;
+  }
+
+  main::-webkit-scrollbar {
+    width: 10px;
+  }
+  main::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: var(--Color-variante);
+  }
+
+  section {
+    max-width: 1300px;
+    margin-inline: auto;
+    padding-inline: 20px;
+  }
+
+  img{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  a {
+    font-family: var(--Fuente2);
+    font-size: var(--p-size);
+    font-weight: bold;
+    color: var(--Color-variante);
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  button {
+    display: inline-block;
+    min-width: 120px;
+    height: 35px;
+    padding: 6px 10px;
+    font-family: var(--Fuente1);
+    font-size: var(--p-size);
+    font-weight: bold;
+    color: var(--Color-claro);
+    border: 2px solid var(--Color-claro);
+    border-radius: 10px;
+    background-color: var(--Color-variante);
+    cursor: pointer;
+    box-shadow: 1px 2px 5px 1px var(--Color-complemento);
+  }
+
+  button:hover {
+    background-color: var(--Color-complemento);
+    box-shadow: 1px 2px 5px 1px var(--Color-variante);
+  }
 }

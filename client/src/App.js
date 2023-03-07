@@ -9,7 +9,9 @@ import Footer from './components/Footer/Footer';
 import './App.css';
 import axios from 'axios';
 
-axios.defaults.baseURL = 'https://pivideogamesdeploy-production.up.railway.app/';
+// "start": "node index.js", -- PARA EL PACKAGE EN API
+// axios.defaults.baseURL = 'https://pivideogamesdeploy-production.up.railway.app';
+axios.defaults.baseURL = 'https://localhost:3001';
 
 
 function App() {

@@ -2,7 +2,7 @@ header {
   position: fixed;
   top: 0%;
   width: 100%;
-  height: 90px;
+  height: 70px;
   border-block-end: 1px solid var(--Color-variante);
 }
 
@@ -11,7 +11,7 @@ header {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding-block: 25px;
+  padding-block: 20px;
 }
 
 .header_left, .header_right a {
@@ -20,14 +20,60 @@ header {
   align-items: center;
 }
 
+.henry_logo {
+  width: 100px;
+}
 .header_left {
-  width: 20%;
+  max-width: 205px;
+  width: 62%;
 }
 .control_logo, .github_logo {
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
 }
 
 .header_right {
-  width: 10%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 5%;
+}
+.header_repo {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .header_right {
+    width: 18%;
+  }
+  .header_repo {
+    display: block;
+    margin-inline-start: 5px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  header {
+    height: 90px;
+  }
+
+  .header {
+    padding-block: 25px;
+  }
+
+  .henry_logo {
+    width: 120px;
+  }
+  .header_left {
+    max-width: 250px;
+    width: 25%;
+  }
+  .control_logo, .github_logo {
+    width: 35px;
+    height: 35px;
+  }
+
+  .header_right {
+    width: 10%;
+  }
 }

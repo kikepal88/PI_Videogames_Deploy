@@ -50,15 +50,17 @@ body {
 }
 
 main {
-  margin-block-start: 90px;
-  width: 100%;
-  height: 630px;
-  background-image: url(https://image.winudf.com/v2/image1/Y29tLnNnbW9iaWxlLnRoZXdpdGNoZXIuaGQud2FsbHBhcGVyc19zY3JlZW5fMF8xNTc4MjQzNjYzXzA5Nw/screen-0.jpg?fakeurl=1&type=.webp), url(https://www.xtrafondos.com/wallpapers/vertical/kratos-god-of-war-11198.jpg), url(https://i.pinimg.com/originals/ad/c2/2b/adc22b32156d2ddf9ad2758c4a628eb3.jpg), url(https://www.xtrafondos.com/wallpapers/vertical/the-last-of-us-remasterizado-511.jpg), url(https://i.pinimg.com/originals/7e/a2/39/7ea239090ac50203b44a3b86bbe5573c.jpg);
-  background-position: -3%, 26%, 50.5%, 75%, 100%;
+  position: relative;
+  top: 70px;
+  z-index: 0;
+  width: 100vw;
+  height: auto;
+  background-image: url(https://image.winudf.com/v2/image1/Y29tLnNnbW9iaWxlLnRoZXdpdGNoZXIuaGQud2FsbHBhcGVyc19zY3JlZW5fMF8xNTc4MjQzNjYzXzA5Nw/screen-0.jpg?fakeurl=1&type=.webp);
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
-  overflow: hidden;
-  overflow-y: scroll;
+  background-size: cover;
+  /* overflow: hidden;
+  overflow-y: scroll; */
 }
 
 main::-webkit-scrollbar {
@@ -68,7 +70,6 @@ main::-webkit-scrollbar-thumb {
   border-radius: 5px;
   background: var(--Color-variante);
 }
-
 
 h1 {
   font-size: var(--h1-size-p);
@@ -102,7 +103,7 @@ p {
 }
 
 section {
-  max-width: 1300px;
+  max-width: 728px;
   margin-inline: auto;
   padding-inline: 20px;
 }
@@ -144,7 +145,9 @@ button:hover {
 }
 
 @media screen and (min-width: 768px) {
-
+  section {
+    max-width: 974px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -172,10 +175,13 @@ button:hover {
     font-size: var(--p-size);
     line-height: var(--p-hl);
   }
+
+  section {
+    max-width: 1180px;
+  }
 }
 
 @media screen and (min-width: 1240px) {
-
 }
 
 @media screen and (min-width: 1440px) {

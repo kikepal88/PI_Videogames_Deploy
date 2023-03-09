@@ -54,12 +54,13 @@ main {
   top: 70px;
   z-index: 0;
   width: 100vw;
-  height: auto;
+  /* height: auto; */
+  height: calc(100vh - 140px);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* overflow: hidden;
-  overflow-y: scroll; */
+  overflow: hidden;
+  overflow-y: scroll;
   animation-name: bgImage;
   animation-duration: 40s;
   animation-iteration-count: infinite;
@@ -183,9 +184,11 @@ button:hover {
 
 @media screen and (min-width: 1024px) {
   main {
+    top: 90px;
     width: 100%;
+    height: calc(100vh - 180px);
     background-image: url(https://image.winudf.com/v2/image1/Y29tLnNnbW9iaWxlLnRoZXdpdGNoZXIuaGQud2FsbHBhcGVyc19zY3JlZW5fMF8xNTc4MjQzNjYzXzA5Nw/screen-0.jpg?fakeurl=1&type=.webp), url(https://www.xtrafondos.com/wallpapers/vertical/kratos-god-of-war-11198.jpg), url(https://www.xtrafondos.com/wallpapers/vertical/the-last-of-us-remasterizado-511.jpg);
-    background-position: -20%, 45%, 105%;
+    background-position: -10%, 50%, 100%;
     background-size: contain;
     animation-name: none;
   }
@@ -217,6 +220,7 @@ button:hover {
 
   section {
     max-width: 1180px;
+    padding-inline: 30px;
   }
 }
 

@@ -55,12 +55,36 @@ main {
   z-index: 0;
   width: 100vw;
   height: auto;
-  background-image: url(https://image.winudf.com/v2/image1/Y29tLnNnbW9iaWxlLnRoZXdpdGNoZXIuaGQud2FsbHBhcGVyc19zY3JlZW5fMF8xNTc4MjQzNjYzXzA5Nw/screen-0.jpg?fakeurl=1&type=.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   /* overflow: hidden;
   overflow-y: scroll; */
+  animation-name: bgImage;
+  animation-duration: 40s;
+  animation-iteration-count: infinite;
+  animation-timing-function: step-start;
+}
+
+@keyframes bgImage {
+  0% {
+    background-image: url(https://image.winudf.com/v2/image1/Y29tLnNnbW9iaWxlLnRoZXdpdGNoZXIuaGQud2FsbHBhcGVyc19zY3JlZW5fMF8xNTc4MjQzNjYzXzA5Nw/screen-0.jpg?fakeurl=1&type=.webp);
+  }
+  20% {
+    background-image: url(https://www.xtrafondos.com/wallpapers/vertical/kratos-god-of-war-11198.jpg);
+  }
+  40% {
+    background-image: url(https://i.pinimg.com/originals/ad/c2/2b/adc22b32156d2ddf9ad2758c4a628eb3.jpg);
+  }
+  60% {
+    background-image: url(https://www.xtrafondos.com/wallpapers/vertical/the-last-of-us-remasterizado-511.jpg);
+  }
+  80% {
+    background-image: url(https://i.pinimg.com/originals/7e/a2/39/7ea239090ac50203b44a3b86bbe5573c.jpg);
+  }
+  100% {
+    background-image: url(https://image.winudf.com/v2/image1/Y29tLnNnbW9iaWxlLnRoZXdpdGNoZXIuaGQud2FsbHBhcGVyc19zY3JlZW5fMF8xNTc4MjQzNjYzXzA5Nw/screen-0.jpg?fakeurl=1&type=.webp);
+  }
 }
 
 main::-webkit-scrollbar {

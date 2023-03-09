@@ -27,42 +27,69 @@
 }
 
 @media screen and (min-width: 768px) {
+  .landing {
+    padding-block-start: 85px;
+    padding-block-end: 170px;
+  }
 
+  .landing h1 {
+    margin-block-end: 40px;
+  }
+  .landing h3 {
+    width: 60%;
+  }
+  .landing h4 {
+    width: 60%;
+    margin-block-end: 40px;
+  }
+
+  .landing button {
+    width: 150px;
+    height: 40px;
+    padding: 5px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
+  .landing {
+    padding-block-start: 90px;
+    padding-block-end: 200px;
+  }
 
-}
+  .landing h1 {
+    margin-block-end: 40px;
+  }
+  .landing h3 {
+    width: 50%;
+  }
+  .landing h4 {
+    width: 50%;
+    margin-block-end: 40px;
+  }
 
-@media screen and (min-width: 1240px) {
-
+  .landing button {
+    width: 170px;
+    height: 50px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
 }
 
 @media screen and (min-width: 1440px) {
   .landing {
-    width: 100%;
-    padding-block: 120px;
+    padding-block-start: 105px;
+    padding-block-end: 235px;
   }
 
   .landing h1 {
-    margin-block-end: 25px;
-    color: var(--Color-variante);
-    text-shadow: 3px 3px 10px var(--Color-complemento);
-  }
-  .landing h3 {
-    width: 50%;
-    margin-block-end: 25px;
-    text-shadow: 3px 3px 10px var(--Color-complemento);
+    margin-block-end: 50px;
   }
   .landing h4 {
-    width: 50%;
-    margin-block-end: 30px;
-    text-shadow: 3px 3px 10px var(--Color-complemento);
+    margin-block-end: 50px;
   }
 
   .landing button {
     width: 200px;
-    height: 50px;
-    padding: 10px;
   }
 }

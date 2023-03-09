@@ -10,8 +10,8 @@ import './App.css';
 import axios from 'axios';
 
 // "start": "node index.js", -- PARA EL PACKAGE EN API
-// axios.defaults.baseURL = 'https://pivideogamesdeploy-production.up.railway.app';
-axios.defaults.baseURL = 'http://localhost:3001';
+axios.defaults.baseURL = 'https://pivideogamesdeploy-production.up.railway.app';
+// axios.defaults.baseURL = 'http://localhost:3001';
 
 function App() {
   return (

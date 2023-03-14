@@ -1,7 +1,7 @@
 .landing {
   width: 100%;
-  padding-block-start: 70px;
-  padding-block-end: 145px;
+  padding-block-start: 12%;
+  padding-block-end: 24%;
 }
 
 .landing h1 {
@@ -28,18 +28,18 @@
 
 @media screen and (min-width: 768px) {
   .landing {
-    padding-block-start: 85px;
-    padding-block-end: 170px;
+    padding-block-start: 38%;
+    padding-block-end: 30%;
   }
 
   .landing h1 {
     margin-block-end: 40px;
   }
   .landing h3 {
-    width: 60%;
+    width: 80%;
   }
   .landing h4 {
-    width: 60%;
+    width: 80%;
     margin-block-end: 40px;
   }
 
@@ -52,19 +52,15 @@
 
 @media screen and (min-width: 1024px) {
   .landing {
-    padding-block-start: 90px;
-    padding-block-end: 180px;
+    padding-block-start: 10%;
+    padding-block-end: 11%;
   }
 
-  .landing h1 {
-    margin-block-end: 40px;
-  }
   .landing h3 {
-    width: 50%;
+    width: 65%;
   }
   .landing h4 {
-    width: 50%;
-    margin-block-end: 40px;
+    width: 65%;
   }
 
   .landing button {
@@ -76,10 +72,25 @@
   }
 }
 
+@media screen and (min-width: 1240px) {
+  .landing {
+    padding-block-start: 10%;
+    padding-block-end: 12%;
+  }
+
+  .landing h3 {
+    width: 57%;
+  }
+  .landing h4 {
+    width: 57%;
+  }
+
+}
+
 @media screen and (min-width: 1440px) {
   .landing {
-    padding-block-start: 105px;
-    padding-block-end: 235px;
+    padding-block-start: 12%;
+    padding-block-end: 13%;
   }
 
   .landing h1 {
@@ -91,5 +102,12 @@
 
   .landing button {
     width: 200px;
+  }
+}
+
+@media screen and (min-width: 1650px) {
+  .landing {
+    padding-block-start: 7%;
+    padding-block-end: 9%;
   }
 }

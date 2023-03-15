@@ -21,6 +21,7 @@ footer {
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
+  /* margin-block-end: 5px; */
 }
 .footer_created, .footer_with {
   width: 100%;

@@ -5,7 +5,7 @@ function Footer() {
     <footer>
       <section className="footer">
         <div className="footer_left">
-          <p className="footer_created">Created by</p>
+          <p className="footer_created">Created with 🧡 by</p>
           <div className="footer_logo">
             <img src="https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Logokike.png?alt=media&token=a00a0fa3-d00d-4a98-b590-b6a853cabff1" alt="Logo Kike" className="img"/>
           </div>
@@ -13,7 +13,6 @@ function Footer() {
           <div className="henry_logo">
               <img src="https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/LogoHenry.png?alt=media&token=9003324f-456e-4561-87a5-02e7ebd62f3d" alt="Henry's Logo" className="img"/>
           </div>
-          <p className="footer_with">with 🧡</p>
         </div>
         <div id="footer_menu-nav" className="footer_menu-nav">
           <p>Contact Me:</p>

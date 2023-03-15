@@ -54,7 +54,7 @@ main {
   top: 70px;
   z-index: 0;
   width: 100%;
-  height: calc(100vh - 230px);
+  height: calc(100vh - 200px);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -172,7 +172,6 @@ button:hover {
   main {
     height: calc(100vh - 180px);
   }
-
   section {
     max-width: 974px;
   }
@@ -242,5 +241,11 @@ button:hover {
 @media screen and (min-width: 1650px) {
   main {
     background-position: -5%, 24%, 49%, 74%, 100%;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  main {
+    background-position: -8%, 23%, 48%, 74%, 100%;
   }
 }

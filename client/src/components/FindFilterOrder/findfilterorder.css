@@ -59,6 +59,7 @@
   .filter_section {
     position: fixed;
     width: 35%;
+    margin-inline-end: 5px;
   }
   .filter_mobile {
     display: none;
@@ -74,6 +75,7 @@
 @media screen and (min-width: 1024px) {
   .filter_section {
     width: 27%;
+    margin-inline-end: 10px;
     padding: 20px;
     border-radius: 20px;
   }

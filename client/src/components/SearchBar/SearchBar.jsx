@@ -5,7 +5,6 @@ import { getNameVg } from "../../actions";
 
 export default function SearchBar({ name, setName, setCurrentPage }) {
   const dispatch = useDispatch();
-  // const [name, setName] = useState("");
 
   function handleInputChange(e) {
     e.preventDefault();
@@ -19,7 +18,7 @@ export default function SearchBar({ name, setName, setCurrentPage }) {
   }
 
   return(
-    <section className="searchbar">
+    <section id="searchbar" className="searchbar">
       <input
         value={name}
         type="text"

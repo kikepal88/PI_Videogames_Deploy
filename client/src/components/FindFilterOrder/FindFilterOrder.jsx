@@ -22,8 +22,10 @@ export default function FindFilterOrder({
   function showFilters() {
     const filterContainer = document.getElementById("filter_container");
     const filterButton = document.getElementById("submit_filter_button");
+    const searchBar = document.getElementById("searchbar");
     filterContainer.classList.toggle("is-active");
     filterButton.classList.toggle("is-active");
+    searchBar.classList.toggle("is-active");
   }
 
   function handleSort(e) {

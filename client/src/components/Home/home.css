@@ -22,29 +22,20 @@
 }
 
 @media screen and (min-width: 768px) {
-
+  .vgs_container {
+    position: relative;
+    left: 40%;
+    width: 60%;
+  }
 }
 
 @media screen and (min-width: 1024px) {
-  .main {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    width: 100%;
-  }
   .vgs_container {
-    position: relative;
-    left: 20%;
-    width: 85%;
-    margin: 0;
-    padding-block-start: 20px;
-    padding-inline: 0;
+    left: 30%;
+    width: 70%;
   }
   .paginatedandcreate {
-    display: flex;
     justify-content: space-between;
-    align-items: center;
     flex-wrap: nowrap;
     width: 100%;
     height: 50px;
@@ -53,17 +44,18 @@
 }
 
 @media screen and (min-width: 1240px) {
-
+  .vgs_container {
+    left: 25%;
+    width: 75%;
+  }
 }
 
 @media screen and (min-width: 1440px) {
-
-}
-
-@media screen and (min-width: 1650px) {
-
-}
-
-@media screen and (min-width: 1900px) {
-
+  .main {
+    padding: 0;
+  }
+  .vgs_container {
+    left: 22%;
+    width: 78%;
+  }
 }

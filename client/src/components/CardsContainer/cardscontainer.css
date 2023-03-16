@@ -26,27 +26,45 @@
 
 @media screen and (min-width: 1024px) {
   .cards_container {
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(auto-fit, 330px);
-    margin-block-end: 20px;
+    grid-gap: 8px;
+    grid-template-columns: repeat(auto-fit, 320px);
+    width: 100%;
+    padding: 0 10px;
   }
 
   .cards_empty {
-    width: 400px;
     margin-block-start: 150px;
-    margin-inline: 300px;
-    text-align: center;
-  }
-  .cards_empty h2 {
-    text-shadow: 1px 1px 10px var(--Color-primario);
+    margin-inline: 150px;
   }
 }
 
 @media screen and (min-width: 1240px) {
+  .cards_container {
+    grid-gap: 15px;
+    grid-template-columns: repeat(auto-fit, 330px);
+    padding: 0 15px;
+  }
 
+  .cards_empty {
+    margin-inline: 200px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
+  .cards_container {
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, 330px);
+    padding: 0;
+  }
 
+  .cards_empty {
+    margin-inline: 250px;
+  }
+}
+
+@media screen and (min-width: 1650px) {
+
+  .cards_empty {
+    margin-inline: 300px;
+  }
 }

@@ -8,7 +8,7 @@
 .vgs_container {
   width: 100%;
   margin: 0;
-  padding-block-start: 20px;
+  padding-block: 20px;
   padding-inline: 0;
 }
 .paginatedandcreate {

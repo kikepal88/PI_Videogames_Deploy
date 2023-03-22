@@ -2,7 +2,7 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  height: auto;
+  height: 110px;
   background-color: var(--Color-primario);
   border-block-start: 1px solid var(--Color-variante);
 }
@@ -12,7 +12,7 @@ footer {
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
-  padding-block: 20px;
+  padding-block: 10px;
 }
 
 .footer_left {
@@ -21,7 +21,6 @@ footer {
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
-  /* margin-block-end: 5px; */
 }
 .footer_created, .footer_with {
   width: 100%;
@@ -57,6 +56,9 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
+  footer {
+    height: 90px;
+  }
   .footer_left {
     flex-wrap: nowrap;
     max-width: 480px;
@@ -69,13 +71,13 @@ footer {
 
 @media screen and (min-width: 1024px) {
   footer {
-    height: 90px;
+    height: 65px;
   }
   .footer {
     justify-content: space-between;
     flex-wrap: nowrap;
     width: 100%;
-    padding-block: 25px;
+    padding-block: 15px;
   }
 
   .footer_left {

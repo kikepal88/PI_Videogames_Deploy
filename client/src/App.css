@@ -51,10 +51,10 @@ body {
 
 main {
   position: relative;
-  top: 70px;
+  top: 50px;
   z-index: 0;
   width: 100%;
-  height: calc(100vh - 200px);
+  height: calc(100vh - 160px);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -170,7 +170,7 @@ button:hover {
 
 @media screen and (min-width: 768px) {
   main {
-    height: calc(100vh - 180px);
+    height: calc(100vh - 140px);
   }
   section {
     max-width: 974px;
@@ -179,10 +179,11 @@ button:hover {
 
 @media screen and (min-width: 1024px) {
   main {
-    top: 90px;
+    top: 65px;
     width: 100%;
-    background-image: url(https://image.winudf.com/v2/image1/Y29tLnNnbW9iaWxlLnRoZXdpdGNoZXIuaGQud2FsbHBhcGVyc19zY3JlZW5fMF8xNTc4MjQzNjYzXzA5Nw/screen-0.jpg?fakeurl=1&type=.webp), url(https://www.xtrafondos.com/wallpapers/vertical/kratos-god-of-war-11198.jpg), url(https://www.xtrafondos.com/wallpapers/vertical/the-last-of-us-remasterizado-511.jpg);
-    background-position: 0%, 53%, 100%;
+    height: calc(100vh - 130px);
+    background-image: url(https://image.winudf.com/v2/image1/Y29tLnNnbW9iaWxlLnRoZXdpdGNoZXIuaGQud2FsbHBhcGVyc19zY3JlZW5fMF8xNTc4MjQzNjYzXzA5Nw/screen-0.jpg?fakeurl=1&type=.webp), url(https://www.xtrafondos.com/wallpapers/vertical/kratos-god-of-war-11198.jpg), url(https://www.xtrafondos.com/wallpapers/vertical/the-last-of-us-remasterizado-511.jpg), url(https://i.pinimg.com/originals/7e/a2/39/7ea239090ac50203b44a3b86bbe5573c.jpg);
+    background-position: 0%, 35%, 68%, 100%;
     background-size: contain;
     animation-name: none;
   }
@@ -228,10 +229,8 @@ button:hover {
 
 @media screen and (min-width: 1240px) {
   main {
-    background-image: url(https://image.winudf.com/v2/image1/Y29tLnNnbW9iaWxlLnRoZXdpdGNoZXIuaGQud2FsbHBhcGVyc19zY3JlZW5fMF8xNTc4MjQzNjYzXzA5Nw/screen-0.jpg?fakeurl=1&type=.webp), url(https://www.xtrafondos.com/wallpapers/vertical/kratos-god-of-war-11198.jpg), url(https://www.xtrafondos.com/wallpapers/vertical/the-last-of-us-remasterizado-511.jpg), url(https://i.pinimg.com/originals/7e/a2/39/7ea239090ac50203b44a3b86bbe5573c.jpg);
-    background-position: -7%, 30%, 65%, 100%;
-    background-size: contain;
-    animation-name: none;
+    background-image: url(https://image.winudf.com/v2/image1/Y29tLnNnbW9iaWxlLnRoZXdpdGNoZXIuaGQud2FsbHBhcGVyc19zY3JlZW5fMF8xNTc4MjQzNjYzXzA5Nw/screen-0.jpg?fakeurl=1&type=.webp), url(https://www.xtrafondos.com/wallpapers/vertical/kratos-god-of-war-11198.jpg), url(https://i.pinimg.com/originals/ad/c2/2b/adc22b32156d2ddf9ad2758c4a628eb3.jpg), url(https://www.xtrafondos.com/wallpapers/vertical/the-last-of-us-remasterizado-511.jpg), url(https://i.pinimg.com/originals/7e/a2/39/7ea239090ac50203b44a3b86bbe5573c.jpg);
+    background-position: 0%, 27%, 51%, 75%, 100%;
   }
 
   section {
@@ -241,8 +240,7 @@ button:hover {
 
 @media screen and (min-width: 1440px) {
   main {
-    background-image: url(https://image.winudf.com/v2/image1/Y29tLnNnbW9iaWxlLnRoZXdpdGNoZXIuaGQud2FsbHBhcGVyc19zY3JlZW5fMF8xNTc4MjQzNjYzXzA5Nw/screen-0.jpg?fakeurl=1&type=.webp), url(https://www.xtrafondos.com/wallpapers/vertical/kratos-god-of-war-11198.jpg), url(https://i.pinimg.com/originals/ad/c2/2b/adc22b32156d2ddf9ad2758c4a628eb3.jpg), url(https://www.xtrafondos.com/wallpapers/vertical/the-last-of-us-remasterizado-511.jpg), url(https://i.pinimg.com/originals/7e/a2/39/7ea239090ac50203b44a3b86bbe5573c.jpg);
-    background-position: -12%, 22%, 47%, 75%, 100%;
+    background-position: -6%, 24%, 49%, 74%, 100%;
   }
 }
 
@@ -254,6 +252,6 @@ button:hover {
 
 @media screen and (min-width: 1900px) {
   main {
-    background-position: -8%, 23%, 48%, 74%, 100%;
+    background-position: 0%, 28%, 51%, 75%, 100%;
   }
 }

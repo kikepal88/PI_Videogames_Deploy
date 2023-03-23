@@ -49,7 +49,7 @@ export default function Detail() {
                 </div>
               </div>
               <div className="vg_description">
-                <p>DESCRIPTION:</p>
+                <h5>Description:</h5>
                 <p>{vgData.description}</p>
               </div>
             </section> :

@@ -19,7 +19,7 @@ article .vg_img img {
 article .vg_info {
   width: 100%;
   height: auto;
-  min-height: 282px;
+  min-height: 255px;
   padding: 10px;
   text-align: center;
   color: var(--Color-claro);
@@ -34,7 +34,8 @@ article .vg_info {
 }
 .genreplatform p {
   margin: 2px;
-  padding: 5px;
+  padding: 2px 5px;
+  font-size: 15px;
   font-weight: 400;
   border: 1px solid var(--Color-variante);
   border-radius: 5px;
@@ -75,7 +76,7 @@ article .vg_info {
   }
   article .vg_info {
     width: 100%;
-    height: 360px;
+    height: 270px;
     padding: 10px;
     text-align: center;
     color: var(--Color-claro);
@@ -90,7 +91,6 @@ article .vg_info {
   }
   .genreplatform p {
     margin: 2px;
-    padding: 5px;
     font-weight: 400;
     border: 1px solid var(--Color-variante);
     border-radius: 5px;

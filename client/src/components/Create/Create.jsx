@@ -93,7 +93,6 @@ export default function Create() {
   function handleSubmit(e) {
     e.preventDefault();
     dispatch(postVideogame(input));
-    // alert("Videogame Created");
     setInput({
       name: "",
       bgi_url: "",
@@ -201,7 +200,7 @@ export default function Create() {
             {errors.description && (<p>{errors.description}</p>)}
           </div>
 
-          <div>
+          <div className='released'>
             <label htmlFor='released'><h5>Released Date:</h5></label>
             <input
               type="date"
@@ -213,7 +212,7 @@ export default function Create() {
             {errors.released && (<p>{errors.released}</p>)}
           </div>
 
-          <div>
+          <div className='rating'>
             <label htmlFor='rating'><h5>Rating:</h5></label>
             <input
               type="number"
